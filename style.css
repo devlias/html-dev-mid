@@ -1,4 +1,8 @@
-form {
+body {
+  background-color: rgb(154, 171, 203);
+}
+
+legend {
   display: flex;
   flex-direction: column;
 }

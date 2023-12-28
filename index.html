@@ -9,6 +9,7 @@
   <body>
     <header>
       <h1>CURSO DE HTML</h1>
+      X
       <h2>Repaso de las etiquetas</h2>
       <p>
         Esto es un parrafo de prueba con HTML, principalmente para repasar las
@@ -54,19 +55,29 @@
     <br />
     <br />
     <section>
+      <h2>Formulario de contacto</h2>
       <form method="post" action="/">
-        <input type="text" placeholder="Escribir Nombre aquí" />
-        <input type="password" placeholder="Introduzca Password" />
-        <input type="" placeholder="" />
-        <input type="button" placeholder="press" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
-        <input type="text" placeholder="" />
+        <fieldset>
+          <legend>informacion</legend>
+          <label for="name"
+            >Nombre:
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Escribir Nombre aquí"
+            />
+          </label>
+          <label for="password"
+            >Password:
+            <input
+              type="password"
+              id="password"
+              name="password"
+              placeholder="Introduzca Password"
+            />
+          </label>
+        </fieldset>
       </form>
     </section>
     <br />
