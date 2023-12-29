@@ -9,7 +9,15 @@
   <body>
     <header>
       <h1>CURSO DE HTML</h1>
-      X
+      <video
+        muted
+        controls
+        src="https://filesamples.com/samples/video/mp4/sample_960x400_ocean_with_audio.mp4"
+      ></video>
+      <audio
+        controls
+        src="https://filesamples.com/samples/audio/mp3/sample1.mp3"
+      ></audio>
       <h2>Repaso de las etiquetas</h2>
       <p>
         Esto es un parrafo de prueba con HTML, principalmente para repasar las
@@ -42,8 +50,6 @@
 
     <img
       id="photo-dog"
-      width="200"
-      height="200"
       src="images/dogLengua.jpg"
       alt="Perro con la lengua afuera"
       title="Perro"
@@ -97,6 +103,8 @@
           </label>
         </fieldset>
         <label for="lenguajes">
+          Elije un lenguaje:
+          <input type="text" name="lenguajes" id="lenguajes" list="languages" />
           <datalist id="languages">
             <option value="js"></option>
             <option value="c++"></option>
@@ -105,6 +113,21 @@
         </label>
       </form>
     </section>
+    <!-- <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/uV8elIzCbUY?si=1dArFzBybeCH1OX6"
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen
+    ></iframe> -->
+    <dialog id="modal">
+      <h1>prueba</h1>
+      <p>abrir y cerrar</p>
+      <button id="close">close modal</button>
+    </dialog>
+    <button id="show">mas info</button>
     <br />
     <br />
     <br />
